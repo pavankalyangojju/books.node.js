@@ -7,7 +7,6 @@ User Authentication REST API built using Node & Express. The REST API include Us
 * Login
 * Register
 * Reset Password
-* Logout
 * Email Subscriptions
 * Automatic email on Register or Login
 ### Make changes to inventory:
@@ -88,17 +87,37 @@ These environment variables will be used for configuring different services by d
 ## API Reference
 | URL                             | Method | Description                                              | Content (Body)          |
 |---------------------------------|:-----------:|----------------------------------------------------------|-------------------------|
-| /api/signup              |     POST    | Registers a user and sends email verification            | `firstname` `lastname` `email` `password`        |
-| /api/signin                 |     POST    | Login with existing user   | `email` `password`          |
-| /api/sendverificationcode                |     PUT     | Send Verification code to change password  | `email` |
-| /api/resetpassword        |     PUT    | Changes User's Password                    | `id` `verificationCode` `newPassword`  |
-| /api/signout |     GET     | Signs out a User                    | None |
-| /api/user/:userId              |     GET    | Retrieve the Single User | None |
-| /api/user/:userId                    |     PUT     | Updates the Single User and returns user                   | `name` `email` `password`            |
-| /api/user/:userId           |     DELETE    | Deletes the Single User       | None    |
-| /api/users/:userId           |     GET    | Get all Users(only admin)       | None    |
-| /api/emailsubscriber           |     POST    | Add the Email in the DB       | `email`    |
-| /api/emailsubscribers/:userId          |     GET    | Get all Email Subscribers (only admin)       | None    |
+| localhost:8000/api/signup              |     POST    | Registers a user and sends email verification            | `firstname` `lastname` `email` `password`        |
+| localhost:8000/api/signin                 |     POST    | Login with existing user   | `email` `password`          |
+| localhost:8000/api/sendverificationcode                |     PUT     | Send Verification code to change password  | `email` |
+| localhost:8000/api/resetpassword        |     PUT    | Changes User's Password                    | `id` `verificationCode` `newPassword`  |
+| localhost:8000/api/signout |     GET     | Signs out a User                    | None |
+| localhost:8000/api/user/:userId              |     GET    | Retrieve the Single User | None |
+| localhost:8000/api/user/:userId                    |     PUT     | Updates the Single User and returns user                   | `name` `email` `password`            |
+| localhost:8000/api/user/:userId           |     DELETE    | Deletes the Single User       | None    |
+| localhost:8000/api/users/:userId           |     GET    | Get all Users(only admin)       | None    |
+| localhost:8000/api/emailsubscriber           |     POST    | Add the Email in the DB       | `email`    |
+| localhost:8000/api/emailsubscribers/:userId          |     GET    | Get all Email Subscribers (only admin)       | None    |
+
+## API Reference Book store
+| URL                             | Method | Description                                              | 
+|---------------------------------|:-----------:|----------------------------------------------------------|
+| localhost/5000/api/v1/books              |     GET    | get the book                   |
+| localhost/5000/api/v1/books              |     POST    | post the book            
+| localhost/5000/api/v1/books/(id=1234567890)   |     PUT    | update the book            |
+| localhost/5000/api/v1/books/(id=1234567890)   |     GET    | update the book get a that book |
+| localhost/5000/api/v1/books/(id=1234567890)   |     DELETE    | Deletes the book            |
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Contact
