@@ -108,17 +108,27 @@ These environment variables will be used for configuring different services by d
 | localhost/5000/api/v1/books/(id=1234567890)   |     GET    | update the book get a that book |
 | localhost/5000/api/v1/books/(id=1234567890)   |     DELETE    | Deletes the book            |
 
+## POSTMAN IMAGES
+###Get the book
+![get the book](https://user-images.githubusercontent.com/95854682/178009305-338d3c4b-6d08-4b82-94b8-0c2796829d7d.jpeg)
 
+###Post the book
+![post the book](https://user-images.githubusercontent.com/95854682/178016280-42f2ab52-74ab-40c0-bb69-04e12cba43f2.jpeg)
 
+###Update the book
+![update the book](https://user-images.githubusercontent.com/95854682/178016514-51ddea24-8b53-4de1-b798-4abfe6f7529c.jpeg)
 
+###Update the book get a that book
+![update the book get a that book](https://user-images.githubusercontent.com/95854682/178016721-924ff96b-4ebe-4773-a2ee-8e687f05f0c9.jpeg)
 
+##Delete the book
+![delete the book](https://user-images.githubusercontent.com/95854682/178016870-a12fec05-a76e-4587-bc41-1e4b942535ca.jpeg)
 
+###Signup or Register
+![signup or register](https://user-images.githubusercontent.com/95854682/178017099-ab6e19d1-42cd-41d5-b94f-b37c51444d7a.jpeg)
 
-
-
-
-
-
+###signin or Login
+![signin or login](https://user-images.githubusercontent.com/95854682/178017209-4eedb1ef-7d0c-4fc6-8e1e-58e952914cd5.jpeg)
 
 ## Contact
 
